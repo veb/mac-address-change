@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		204E2811196FC2740026713C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204E2810196FC2740026713C /* Cocoa.framework */; };
+		204E281B196FC2740026713C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 204E2819196FC2740026713C /* InfoPlist.strings */; };
+		204E281D196FC2740026713C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 204E281C196FC2740026713C /* main.m */; };
+		204E2821196FC2740026713C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 204E281F196FC2740026713C /* Credits.rtf */; };
+		204E2824196FC2740026713C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 204E2823196FC2740026713C /* AppDelegate.m */; };
+		204E2827196FC2740026713C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 204E2825196FC2740026713C /* MainMenu.xib */; };
+		204E2829196FC2740026713C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204E2828196FC2740026713C /* Images.xcassets */; };
+		204E2830196FC2740026713C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204E282F196FC2740026713C /* XCTest.framework */; };
+		204E2831196FC2740026713C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204E2810196FC2740026713C /* Cocoa.framework */; };
+		204E2839196FC2740026713C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 204E2837196FC2740026713C /* InfoPlist.strings */; };
+		204E283B196FC2740026713C /* MacAddressSwitcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 204E283A196FC2740026713C /* MacAddressSwitcherTests.m */; };
+		204E2845196FC6670026713C /* spoof.sh in Resources */ = {isa = PBXBuildFile; fileRef = 204E2844196FC6670026713C /* spoof.sh */; };
+		204E2847196FCE6C0026713C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204E2846196FCE6C0026713C /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		204E2832196FC2740026713C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 204E2805196FC2730026713C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 204E280C196FC2730026713C;
+			remoteInfo = MacAddressSwitcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		204E280D196FC2740026713C /* MacAddressSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacAddressSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		204E2810196FC2740026713C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		204E2813196FC2740026713C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		204E2814196FC2740026713C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		204E2815196FC2740026713C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		204E2818196FC2740026713C /* MacAddressSwitcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacAddressSwitcher-Info.plist"; sourceTree = "<group>"; };
+		204E281A196FC2740026713C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		204E281C196FC2740026713C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		204E281E196FC2740026713C /* MacAddressSwitcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacAddressSwitcher-Prefix.pch"; sourceTree = "<group>"; };
+		204E2820196FC2740026713C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		204E2822196FC2740026713C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		204E2823196FC2740026713C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		204E2826196FC2740026713C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		204E2828196FC2740026713C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		204E282E196FC2740026713C /* MacAddressSwitcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacAddressSwitcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		204E282F196FC2740026713C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		204E2836196FC2740026713C /* MacAddressSwitcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacAddressSwitcherTests-Info.plist"; sourceTree = "<group>"; };
+		204E2838196FC2740026713C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		204E283A196FC2740026713C /* MacAddressSwitcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacAddressSwitcherTests.m; sourceTree = "<group>"; };
+		204E2844196FC6670026713C /* spoof.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = spoof.sh; path = ../../spoof.sh; sourceTree = "<group>"; };
+		204E2846196FCE6C0026713C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		204E280A196FC2730026713C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204E2847196FCE6C0026713C /* CFNetwork.framework in Frameworks */,
+				204E2811196FC2740026713C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204E282B196FC2740026713C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204E2831196FC2740026713C /* Cocoa.framework in Frameworks */,
+				204E2830196FC2740026713C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		204E2804196FC2730026713C = {
+			isa = PBXGroup;
+			children = (
+				204E2816196FC2740026713C /* MacAddressSwitcher */,
+				204E2834196FC2740026713C /* MacAddressSwitcherTests */,
+				204E280F196FC2740026713C /* Frameworks */,
+				204E280E196FC2740026713C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		204E280E196FC2740026713C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				204E280D196FC2740026713C /* MacAddressSwitcher.app */,
+				204E282E196FC2740026713C /* MacAddressSwitcherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		204E280F196FC2740026713C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				204E2846196FCE6C0026713C /* CFNetwork.framework */,
+				204E2810196FC2740026713C /* Cocoa.framework */,
+				204E282F196FC2740026713C /* XCTest.framework */,
+				204E2812196FC2740026713C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		204E2812196FC2740026713C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				204E2813196FC2740026713C /* AppKit.framework */,
+				204E2814196FC2740026713C /* CoreData.framework */,
+				204E2815196FC2740026713C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		204E2816196FC2740026713C /* MacAddressSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				204E2822196FC2740026713C /* AppDelegate.h */,
+				204E2823196FC2740026713C /* AppDelegate.m */,
+				204E2825196FC2740026713C /* MainMenu.xib */,
+				204E2828196FC2740026713C /* Images.xcassets */,
+				204E2844196FC6670026713C /* spoof.sh */,
+				204E2817196FC2740026713C /* Supporting Files */,
+			);
+			path = MacAddressSwitcher;
+			sourceTree = "<group>";
+		};
+		204E2817196FC2740026713C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				204E2818196FC2740026713C /* MacAddressSwitcher-Info.plist */,
+				204E2819196FC2740026713C /* InfoPlist.strings */,
+				204E281C196FC2740026713C /* main.m */,
+				204E281E196FC2740026713C /* MacAddressSwitcher-Prefix.pch */,
+				204E281F196FC2740026713C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		204E2834196FC2740026713C /* MacAddressSwitcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				204E283A196FC2740026713C /* MacAddressSwitcherTests.m */,
+				204E2835196FC2740026713C /* Supporting Files */,
+			);
+			path = MacAddressSwitcherTests;
+			sourceTree = "<group>";
+		};
+		204E2835196FC2740026713C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				204E2836196FC2740026713C /* MacAddressSwitcherTests-Info.plist */,
+				204E2837196FC2740026713C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		204E280C196FC2730026713C /* MacAddressSwitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204E283E196FC2740026713C /* Build configuration list for PBXNativeTarget "MacAddressSwitcher" */;
+			buildPhases = (
+				204E2809196FC2730026713C /* Sources */,
+				204E280A196FC2730026713C /* Frameworks */,
+				204E280B196FC2730026713C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacAddressSwitcher;
+			productName = MacAddressSwitcher;
+			productReference = 204E280D196FC2740026713C /* MacAddressSwitcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		204E282D196FC2740026713C /* MacAddressSwitcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204E2841196FC2740026713C /* Build configuration list for PBXNativeTarget "MacAddressSwitcherTests" */;
+			buildPhases = (
+				204E282A196FC2740026713C /* Sources */,
+				204E282B196FC2740026713C /* Frameworks */,
+				204E282C196FC2740026713C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				204E2833196FC2740026713C /* PBXTargetDependency */,
+			);
+			name = MacAddressSwitcherTests;
+			productName = MacAddressSwitcherTests;
+			productReference = 204E282E196FC2740026713C /* MacAddressSwitcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		204E2805196FC2730026713C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = veb.co.nz;
+				TargetAttributes = {
+					204E282D196FC2740026713C = {
+						TestTargetID = 204E280C196FC2730026713C;
+					};
+				};
+			};
+			buildConfigurationList = 204E2808196FC2730026713C /* Build configuration list for PBXProject "MacAddressSwitcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 204E2804196FC2730026713C;
+			productRefGroup = 204E280E196FC2740026713C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				204E280C196FC2730026713C /* MacAddressSwitcher */,
+				204E282D196FC2740026713C /* MacAddressSwitcherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		204E280B196FC2730026713C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204E281B196FC2740026713C /* InfoPlist.strings in Resources */,
+				204E2845196FC6670026713C /* spoof.sh in Resources */,
+				204E2829196FC2740026713C /* Images.xcassets in Resources */,
+				204E2821196FC2740026713C /* Credits.rtf in Resources */,
+				204E2827196FC2740026713C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204E282C196FC2740026713C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204E2839196FC2740026713C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		204E2809196FC2730026713C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204E2824196FC2740026713C /* AppDelegate.m in Sources */,
+				204E281D196FC2740026713C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204E282A196FC2740026713C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204E283B196FC2740026713C /* MacAddressSwitcherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		204E2833196FC2740026713C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 204E280C196FC2730026713C /* MacAddressSwitcher */;
+			targetProxy = 204E2832196FC2740026713C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		204E2819196FC2740026713C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				204E281A196FC2740026713C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		204E281F196FC2740026713C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				204E2820196FC2740026713C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		204E2825196FC2740026713C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				204E2826196FC2740026713C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		204E2837196FC2740026713C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				204E2838196FC2740026713C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		204E283C196FC2740026713C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		204E283D196FC2740026713C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		204E283F196FC2740026713C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacAddressSwitcher/MacAddressSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "MacAddressSwitcher/MacAddressSwitcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		204E2840196FC2740026713C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacAddressSwitcher/MacAddressSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "MacAddressSwitcher/MacAddressSwitcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		204E2842196FC2740026713C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacAddressSwitcher.app/Contents/MacOS/MacAddressSwitcher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacAddressSwitcher/MacAddressSwitcher-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MacAddressSwitcherTests/MacAddressSwitcherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		204E2843196FC2740026713C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacAddressSwitcher.app/Contents/MacOS/MacAddressSwitcher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacAddressSwitcher/MacAddressSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "MacAddressSwitcherTests/MacAddressSwitcherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		204E2808196FC2730026713C /* Build configuration list for PBXProject "MacAddressSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204E283C196FC2740026713C /* Debug */,
+				204E283D196FC2740026713C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204E283E196FC2740026713C /* Build configuration list for PBXNativeTarget "MacAddressSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204E283F196FC2740026713C /* Debug */,
+				204E2840196FC2740026713C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		204E2841196FC2740026713C /* Build configuration list for PBXNativeTarget "MacAddressSwitcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204E2842196FC2740026713C /* Debug */,
+				204E2843196FC2740026713C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 204E2805196FC2730026713C /* Project object */;
+}
